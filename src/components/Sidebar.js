@@ -14,7 +14,11 @@ const Sidebar = () => {
               <SidebarLink key={item.key} item={item}/>
             ))}
         </div>
-        <div></div>
+        <div>
+            <span className='text-sm text-slate-100'>Jobie Job Portal Admin Dashboard </span>
+            <span className='text-xs text-slate-100'>©2020 All Rights Reserved</span><br/>
+            <span className='text-xs text-slate-100'>Made with ❤ by Harshdeep</span>
+        </div>
     </div>
   )
 }

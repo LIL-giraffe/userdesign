@@ -11,10 +11,10 @@ import { CgProfile } from "react-icons/cg";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between ">
-      <div className="flex p-4">
+    <div className="flex justify-between bg-slate-300 ">
+      <div className="flex p-8">
         <MenuIcon />
-        <h1>Statistic</h1>
+        <h1 className="mx-4">Statistic</h1>
       </div>
 
       <form className="w-[400px] relative p-2">
@@ -22,7 +22,7 @@ const Navbar = () => {
           <input
             type="search"
             placeholder="Type Here"
-            className="w-full p-4 rounded-full bg-slate-800"
+            className="w-full p-4 rounded-full bg-slate-500"
           />
           <button className="absolute right-1 top-1/2 -translate-y-1/2 p-4 bg-slate-400 rounded-full">
             <AiOutlineSearch />
